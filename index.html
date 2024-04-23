@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slick Slider</title>
+    <!-- Add the slick-theme.css if you want default styling -->
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+<!-- Add the slick-theme.css if you want default styling -->
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> -->
+
+<link rel="stylesheet" type="text/css" href="/css/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="/css/slick-theme.css"/>
+
+<style>
+    .box1{
+        /* width: 100%;
+        height: 500px; */
+        background-color: lightblue;
+    }
+    .box{
+        background-color: lightcyan;
+    }
+
+    .item{
+        width: 1920px;
+        height: 500px;
+    }
+    .item img{
+        width: 100%;
+    }
+
+    .custom_slick .slick-dots{
+        bottom: 10px;
+    }
+
+    /* .custom_slick .slick-dots{
+        top: 250px;
+    } */
+
+    .custom_slick .slick-dots li{
+        border: 1px solid black;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background: transparent;
+    }
+
+    .custom_slick .slick-dots li.slick-active{
+        background-color: black;
+    }
+
+    .custom_slick .slick-prev{
+    left: 0px;
+    border: 1px solid black;       
+    height: 20px;
+    width: 20px;
+    top: 90%;
+    z-index: 1;
+    }
+
+    .custom_slick .slick-next{
+    right: 0px;
+    border: 1px solid black;       
+    height: 20px;
+    width: 20px;
+    top: 90%;
+    z-index: 1;
+
+    }
+
+  
+    .slick-prev:before, .slick-next:before {
+        color: black;
+    }
+
+</style>
+</head>
+<body>
+
+
+    <div class="single-item multiple-items responsive custom_slick" style="overflow: hidden;">
+
+        <div class="item"><img data-lazy="https://plus.unsplash.com/premium_photo-1676009619407-18a5121f9687?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="testing"></div>
+        <div class="item"><img data-lazy="https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="testing"></div>
+        <div class="item"><img data-lazy="https://images.unsplash.com/photo-1476820865390-c52aeebb9891?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="testing"></div>
+        
+        <div class="item"><img data-lazy="https://plus.unsplash.com/premium_photo-1676009619407-18a5121f9687?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="testing"></div>
+        <div class="item"><img data-lazy="https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="testing"></div>
+        <div class="item"><img data-lazy="https://images.unsplash.com/photo-1476820865390-c52aeebb9891?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="testing"></div>
+
+        
+        <div class="item"><img data-lazy="https://plus.unsplash.com/premium_photo-1676009619407-18a5121f9687?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="testing"></div>
+        <div class="item"><img data-lazy="https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="testing"></div>
+        <div class="item"><img data-lazy="https://images.unsplash.com/photo-1476820865390-c52aeebb9891?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="testing"></div>
+
+        <div class="item"><img data-lazy="https://plus.unsplash.com/premium_photo-1676009619407-18a5121f9687?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="testing"></div>
+        <div class="item"><img data-lazy="https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="testing"></div>
+        <div class="item"><img data-lazy="https://images.unsplash.com/photo-1476820865390-c52aeebb9891?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="testing"></div>
+    </div>
+              
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+<script type="text/javascript" src="/js/slick.min.js"></script> 
+
+
+<script>
+// $('.single-item').slick();
+
+// $('.multiple-items').slick({
+//   infinite: true,
+//   slidesToShow: 3,
+//   slidesToScroll: 3
+// });
+
+
+$('.responsive').slick({
+  dots: true,
+  arrows: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 2,
+  slidesToScroll: 2,
+//   autoplay: true,
+//   autoplaySpeed: 1000,
+  lazyLoad: 'ondemand',
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+
+</script>
+
+</body>
+</html>
